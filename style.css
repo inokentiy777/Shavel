@@ -53,5 +53,62 @@ padding: 0 30px;
     height: 90vh;
     background-image: url(img/img2-4\ 1.png);
     background-size: cover;
-   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.title{
+    color: white;
+    font-size: 48px;
+}
+.catalog{
+    padding: 100px 80px;
+    text-align: center;
+
+}
+.catalog_title{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px
+    ;
+}
+.one_item{
+    width: 25%;
+    background-color: darkorchid;
+    padding: 30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0 black;
+    transition: 0.4s all linear;
+}
+
+.one_item:hover{
+    transform: scale(1.05);
+}
+.one_item img{
+    width: 100%;
+}
+.name{
+    color: white;
+    font-size: 24px;
+
+}
+.buy{
+    text-decoration: none;
+    color: black;
+    background-color: aquamarine;
+    font-size: 20px;
+    padding: 5px 35px;
+    border-radius: 15px;
+
+
 }
