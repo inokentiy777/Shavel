@@ -3,7 +3,37 @@
         "title": "Kharkiv-Warsaw",
         "price": 90,
         "time": 23,
-        "image": ""
+        "image": "Warsaw-Poland-2-2.jpg"
     },
+    {
+        "title": "Kherson-Moldova",
+        "price": 70,
+        "time": 12,
+        "image": "iStock-1066138896.avif"
+    },
+    {
+        "title": "Kyiv-Krakow",
+        "price": 180,
+        "time": 24,
+        "image": "Krakow-Main-Market-Square-Old-Town-view-for-Wawel-Castle-and-st-albert-church-1.jpg"
+    },
+    {
+        "title": "Lviv-Denmark",
+        "price": 70,
+        "time": 12,
+        "image": "copenhagen-denmark-lakes-panorama-city-600nw-2444244401.webp"
+    },
+    {
+        "title": "Kharkiv-Finland",
+        "price": 170,
+        "time": 22,
+        "image": "Finland-Lakeland-nblx-shutterstock_1950372253-RFC.avif"
+    },
+    {
+        "title": "Kherson-Germany",
+        "price": 190,
+        "time": 26,
+        "image": "caption.jpg"
+    }
     
 ]

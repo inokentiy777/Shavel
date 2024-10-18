@@ -112,3 +112,28 @@ padding: 0 30px;
 
 
 }
+.search_cnt{
+    width: 80%;
+    background-color: #0EF09E;
+    margin: 0 auto;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border-radius: 15px;
+    font-size: 28px;
+}
+.search_input{
+    width: 80%;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 15px;
+
+}
+.search_btn{
+    width: 15%;
+    padding: 5px 15px;
+    border-radius: 0 8px 8px 0;
+    background-color: blueviolet;
+    color:white;
+    font-weight: 700;
+
+
+}
