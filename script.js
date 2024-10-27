@@ -64,3 +64,23 @@ searchForm.addEventListener('submit', searchProducts)
 
 let searchBtn = document.querySelector('.search_btn');
 searchBtn.addEventListener('click', searchProducts)
+
+
+
+
+let revCnt = document.querySelector('.rev_cnt')
+let revInput = document.querySelector('.rev_input')
+let revBtn = document.querySelector('.rev_btn')
+
+revBtn.addEventListener('click',function(){
+    let revInput = document.querySelector('.rev_input')
+    let text = revInput.value
+    if (text != ''){
+        revCnt.innerHTML +=`
+        <div class="review">
+            <img src="img/man.png"alt="">
+                <p class="review_text">${text}</p>
+        </div>
+        `
+    }
+})
